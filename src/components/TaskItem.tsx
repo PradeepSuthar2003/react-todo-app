@@ -28,7 +28,7 @@ const TaskItem = (prop: MyComponentProps) => {
                     <ListItemText>{prop.text}</ListItemText>
                 </Box>
             </ListItemButton>
-            <IconButton color='error' onClick={() => prop.onClick(prop.index)}><DeleteOutlineIcon /></IconButton>
+            <IconButton color='secondary' onClick={() => prop.onClick(prop.index)} sx={{ backgroundColor: 'red' }}><DeleteOutlineIcon /></IconButton>
         </ListItem>
     )
 }

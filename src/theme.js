@@ -4,8 +4,11 @@ import pog from './fonts/Poppins-Medium.ttf';
 export const theme = createTheme({
     palette: {
         primary: {
-            main: '#000'
+            main: '#0f1f0f'
         },
+        secondary: {
+            main: '#fff',
+        }
     },
     typography: {
         fontFamily: [
